@@ -21,7 +21,7 @@ public class Main {
             }
 
             else {
-                if (X - (B + C) < 0) {
+                if (X - B - C < 0) {
                     out.println(1);
                 }
 
@@ -32,8 +32,8 @@ public class Main {
         }
 
         else {
-            if (X - (A + B) < 0) {
-                if (X - (A + C) < 0) {
+            if (X - A - B < 0) {
+                if (X - A - C < 0) {
                     out.println(1);
                 }
 
@@ -43,7 +43,7 @@ public class Main {
             }
 
             else {
-                if (X - (A + B + C) < 0) {
+                if (X - A - B - C < 0) {
                     out.println(2);
                 }
 
