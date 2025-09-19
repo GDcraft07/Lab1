@@ -1,12 +1,12 @@
 import java.util.Scanner;
 import java.io.PrintStream;
-import java.io.IOException;
+
 
 public class Main {
     public static Scanner in = new Scanner(System.in);
     public static PrintStream out = new PrintStream(System.out);
 
-    public static void main(String[] args) throws IOException{
+    public static void main(String[] args) {
         double X = in.nextDouble(), A = in.nextDouble(), B = in.nextDouble(), C = in.nextDouble();
 
         if (X - A < 0) {
