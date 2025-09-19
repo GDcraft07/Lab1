@@ -215,7 +215,7 @@ public class Main {
         1
         ```
 
-. Тест на `X - A < 0, X - B > 0, X - B - C < 0`:
+3. Тест на `X - A < 0, X - B > 0, X - B - C < 0`:
 
     - **Input**:
         ```
@@ -227,7 +227,7 @@ public class Main {
         1
         ```
 
-. Тест на `X - A < 0, X - B > 0, X - B - C >= 0`:
+4. Тест на `X - A < 0, X - B > 0, X - B - C >= 0`:
 
     - **Input**:
         ```
@@ -239,7 +239,7 @@ public class Main {
         2
         ```
 
-. Тест на `X - A >= 0, X - A - B < 0, X - A - C < 0`:
+5. Тест на `X - A >= 0, X - A - B < 0, X - A - C < 0`:
 
     - **Input**:
         ```
@@ -251,7 +251,7 @@ public class Main {
         1
         ```
 
-. Тест на `X - A >= 0, X - A - B < 0, X - A - C >= 0`:
+6. Тест на `X - A >= 0, X - A - B < 0, X - A - C >= 0`:
 
     - **Input**:
         ```
@@ -263,7 +263,7 @@ public class Main {
         2
         ```
 
-. Тест на `X - A >= 0, X - A - B >= 0, X - A - B - C < 0`:
+7. Тест на `X - A >= 0, X - A - B >= 0, X - A - B - C < 0`:
 
     - **Input**:
         ```
@@ -275,7 +275,7 @@ public class Main {
         2
         ```
 
-. Тест на `X - A >= 0, X - A - B >= 0, X - A - B - C >= 0`:
+8. Тест на `X - A >= 0, X - A - B >= 0, X - A - B - C >= 0`:
 
     - **Input**:
         ```
